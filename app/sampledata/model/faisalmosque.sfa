@@ -1,0 +1,252 @@
+{
+  materials: [
+    {
+      name: 'Stone_Sandstone_Ashlar_Light',
+      parameters: [
+        {
+          baseColor: 'Stone_Sandstone_Ashlar_Light',
+        },
+        {
+          baseColorTint: [
+            0.972549,
+            1,
+            0.98039200000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'FrontColor',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Color_008',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.117647,
+            0.117647,
+            0.117647,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Stone_Flagstone_Ashlar',
+      parameters: [
+        {
+          baseColor: 'Stone_Flagstone_Ashlar',
+        },
+        {
+          baseColorTint: [
+            0.95294100000000004,
+            0.96862700000000002,
+            0.89411799999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Marble_Carrara_Gold_Floor_Tile',
+      parameters: [
+        {
+          baseColor: 'Marble_Carrara_Gold_Floor_Tile',
+        },
+        {
+          baseColorTint: [
+            0.98039200000000004,
+            1,
+            0.87058800000000003,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '_1',
+      parameters: [
+        {
+          baseColor: '_1',
+        },
+        {
+          baseColorTint: [
+            0.90980399999999995,
+            0.91764699999999999,
+            0.77647100000000002,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Fencing_Picket_Concave',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.94509799999999999,
+            1,
+            0.96078399999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Roofing_Shingles_Wood',
+      parameters: [
+        {
+          baseColor: 'Roofing_Shingles_Wood',
+        },
+        {
+          baseColorTint: [
+            1,
+            0.92941200000000002,
+            0.69803899999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/model/faisalmosque.obj',
+    name: 'faisalmosque',
+    recenter: 'root',
+    scale: 0.000562,
+  },
+  samplers: [
+    {
+      file: 'sampledata/model\\faisalmosque\\Stone_Sandstone_Ashlar_Light.jpg',
+      name: 'Stone_Sandstone_Ashlar_Light',
+      pipeline_name: 'faisalmosque/Stone_Sandstone_Ashlar_Light.jpg',
+    },
+    {
+      file: 'sampledata/model\\faisalmosque\\Stone_Flagstone_Ashlar.jpg',
+      name: 'Stone_Flagstone_Ashlar',
+      pipeline_name: 'faisalmosque/Stone_Flagstone_Ashlar.jpg',
+    },
+    {
+      file: 'sampledata/model\\faisalmosque\\Marble_Carrara_Gold_Floor_Tile.jpg',
+      name: 'Marble_Carrara_Gold_Floor_Tile',
+      pipeline_name: 'faisalmosque/Marble_Carrara_Gold_Floor_Tile.jpg',
+    },
+    {
+      file: 'sampledata/model\\faisalmosque\\Roofing_Shingles_Wood.jpg',
+      name: 'Roofing_Shingles_Wood',
+      pipeline_name: 'faisalmosque/Roofing_Shingles_Wood.jpg',
+    },
+    {
+      file: 'sampledata/model\\faisalmosque\\_1.jpg',
+      name: '_1',
+      pipeline_name: 'faisalmosque/_1.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

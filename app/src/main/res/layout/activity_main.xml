@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="650dp"
+
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/sceneform_ux_fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"/>
+
+        <HorizontalScrollView
+            android:layout_width = "match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:orientation ="horizontal"
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"    >
+    <ImageView
+            android:id = "@+id/serena"
+            android:src = "@drawable/serena"
+            android:layout_width = "100dp"
+            android:layout_height ="wrap_content"
+            />
+
+        <ImageView
+        android:id = "@+id/centaurus"
+        android:src = "@drawable/centaurus"
+        android:layout_width = "100dp"
+        android:layout_height ="wrap_content"
+        />
+
+
+                <ImageView
+                    android:id="@+id/faisalmosque"
+                    android:layout_width="100dp"
+                    android:layout_height="54dp"
+                    android:src="@drawable/faisalmosque" />
+
+                <ImageView
+                    android:id="@+id/monument"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/monument" />
+
+                <ImageView
+                    android:id = "@+id/nustlibrary"
+                    android:src = "@drawable/nustlibrary"
+                    android:layout_width = "100dp"
+                    android:layout_height ="wrap_content"
+                    />
+
+                <ImageView
+                    android:id="@+id/convention"
+                    android:layout_width="109dp"
+                    android:layout_height="62dp"
+                    android:src="@drawable/convention" />
+                <ImageView
+                    android:id = "@+id/parliment"
+                    android:src = "@drawable/parliment"
+                    android:layout_width = "100dp"
+                    android:layout_height ="wrap_content"
+                    />
+
+                <ImageView
+                    android:id="@+id/nice"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/nice" />
+                <ImageView
+                    android:id = "@+id/nustgatethree"
+                    android:src = "@drawable/nustgatethree"
+                    android:layout_width = "100dp"
+                    android:layout_height ="wrap_content"
+                    />
+
+                <ImageView
+                    android:id = "@+id/nustgateten"
+                    android:src = "@drawable/nustgateten"
+                    android:layout_width = "100dp"
+                    android:layout_height ="wrap_content"
+                    />
+
+                <ImageView
+                    android:id="@+id/nustmosque"
+                    android:layout_width="100dp"
+                    android:layout_height="51dp"
+                    android:src="@drawable/nustmosque" />
+
+
+                <ImageView
+                    android:id = "@+id/seecs"
+                    android:src = "@drawable/seecs"
+                    android:layout_width = "100dp"
+                    android:layout_height ="wrap_content"
+                    />
+</LinearLayout>
+</HorizontalScrollView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:text="Info" />
+
+   <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="250dp"
+        android:text="Navigate "
+        android:drawableLeft="@drawable/iconn"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+
+        android:layout_margin="16dp" />
+
+
+</FrameLayout>

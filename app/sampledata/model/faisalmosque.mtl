@@ -1,0 +1,54 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Stone_Sandstone_Ashlar_Light
+Ka 0.000000 0.000000 0.000000
+Kd 0.972549 1.000000 0.980392
+Ks 0.330000 0.330000 0.330000
+map_Kd faisalmosque/Stone_Sandstone_Ashlar_Light.jpg
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Color_008
+Ka 0.000000 0.000000 0.000000
+Kd 0.117647 0.117647 0.117647
+Ks 0.330000 0.330000 0.330000
+
+newmtl Stone_Flagstone_Ashlar
+Ka 0.000000 0.000000 0.000000
+Kd 0.952941 0.968627 0.894118
+Ks 0.330000 0.330000 0.330000
+map_Kd faisalmosque/Stone_Flagstone_Ashlar.jpg
+
+newmtl Color_000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Marble_Carrara_Gold_Floor_Tile
+Ka 0.000000 0.000000 0.000000
+Kd 0.980392 1.000000 0.870588
+Ks 0.330000 0.330000 0.330000
+map_Kd faisalmosque/Marble_Carrara_Gold_Floor_Tile.jpg
+
+newmtl _1
+Ka 0.000000 0.000000 0.000000
+Kd 0.909804 0.917647 0.776471
+Ks 0.330000 0.330000 0.330000
+map_Kd faisalmosque/_1.jpg
+
+newmtl Fencing_Picket_Concave
+Ka 0.000000 0.000000 0.000000
+Kd 0.945098 1.000000 0.960784
+Ks 0.330000 0.330000 0.330000
+
+newmtl Roofing_Shingles_Wood
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.929412 0.698039
+Ks 0.330000 0.330000 0.330000
+map_Kd faisalmosque/Roofing_Shingles_Wood.jpg
+

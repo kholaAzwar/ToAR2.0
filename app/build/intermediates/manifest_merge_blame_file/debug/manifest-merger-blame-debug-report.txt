@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.aug"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:4:1-60
+11-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:4:18-58
+12
+13    <uses-feature
+13-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:5:5-86
+14        android:name="android.hardware.camera.ar"
+14-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:5:19-60
+15        android:required="true" />
+15-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:5:61-84
+16
+17    <application
+17-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:6:5-22:19
+18        android:allowBackup="true"
+18-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:7:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\khola\.gradle\caches\transforms-2\files-2.1\d40c380115b721b9b9dab878a0252a30\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:8:9-43
+22        android:label="Aug"
+22-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:9:9-28
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:10:9-54
+24        android:supportsRtl="true"
+24-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:11:9-35
+25        android:theme="@style/AppTheme" >
+25-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:12:9-40
+26        <meta-data
+26-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:14:9-80
+27            android:name="com.google.ar.core"
+27-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:14:20-53
+28            android:value="required" />
+28-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:14:54-78
+29
+30        <activity android:name="com.example.aug.MainActivity" >
+30-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:15:9-21:20
+30-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:15:19-47
+31            <intent-filter>
+31-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:16:13-20:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:17:17-69
+32-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:17:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:19:17-77
+34-->D:\fyp\Our FYP Stuff\7june\Aug\app\src\main\AndroidManifest.xml:19:27-74
+35            </intent-filter>
+36        </activity>
+37        <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+38        <meta-data
+38-->[com.google.ar:core:1.15.0] C:\Users\khola\.gradle\caches\transforms-2\files-2.1\312d5fa29d363227968d72be77018594\core-1.15.0\AndroidManifest.xml:33:9-35:41
+39            android:name="com.google.ar.core.min_apk_version"
+39-->[com.google.ar:core:1.15.0] C:\Users\khola\.gradle\caches\transforms-2\files-2.1\312d5fa29d363227968d72be77018594\core-1.15.0\AndroidManifest.xml:34:13-62
+40            android:value="191106000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+40-->[com.google.ar:core:1.15.0] C:\Users\khola\.gradle\caches\transforms-2\files-2.1\312d5fa29d363227968d72be77018594\core-1.15.0\AndroidManifest.xml:35:13-38
+41        <activity
+41-->[com.google.ar:core:1.15.0] C:\Users\khola\.gradle\caches\transforms-2\files-2.1\312d5fa29d363227968d72be77018594\core-1.15.0\AndroidManifest.xml:37:9-43:80
+42            android:name="com.google.ar.core.InstallActivity"
+42-->[com.google.ar:core:1.15.0] C:\Users\khola\.gradle\caches\transforms-2\files-2.1\312d5fa29d363227968d72be77018594\core-1.15.0\AndroidManifest.xml:38:13-62
+43            android:configChanges="keyboardHidden|orientation|screenSize"
+43-->[com.google.ar:core:1.15.0] C:\Users\khola\.gradle\caches\transforms-2\files-2.1\312d5fa29d363227968d72be77018594\core-1.15.0\AndroidManifest.xml:39:13-74
+44            android:excludeFromRecents="true"
+44-->[com.google.ar:core:1.15.0] C:\Users\khola\.gradle\caches\transforms-2\files-2.1\312d5fa29d363227968d72be77018594\core-1.15.0\AndroidManifest.xml:40:13-46
+45            android:exported="false"
+45-->[com.google.ar:core:1.15.0] C:\Users\khola\.gradle\caches\transforms-2\files-2.1\312d5fa29d363227968d72be77018594\core-1.15.0\AndroidManifest.xml:41:13-37
+46            android:launchMode="singleTop"
+46-->[com.google.ar:core:1.15.0] C:\Users\khola\.gradle\caches\transforms-2\files-2.1\312d5fa29d363227968d72be77018594\core-1.15.0\AndroidManifest.xml:42:13-43
+47            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+47-->[com.google.ar:core:1.15.0] C:\Users\khola\.gradle\caches\transforms-2\files-2.1\312d5fa29d363227968d72be77018594\core-1.15.0\AndroidManifest.xml:43:13-77
+48    </application>
+49
+50</manifest>
